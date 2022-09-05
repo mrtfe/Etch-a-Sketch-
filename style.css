@@ -1,0 +1,9 @@
+html {
+  background-color: gold;
+}
+
+.sketch-box__container {
+  display: grid;
+  max-width: 352px;
+  grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
